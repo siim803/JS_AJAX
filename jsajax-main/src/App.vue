@@ -1,6 +1,7 @@
 <script setup>
     import { ref } from 'vue';
     import Tabs from './components/Tabs.vue';
+    import ToDo from './pages/ToDo.vue';
 
     let titles = ref([
         'Pictures',
@@ -17,7 +18,7 @@ let active_tab = ref(0);
     <Tabs :titles="titles" :active="active_tab"></Tabs>
     
     <div class="container">
-
+        <ToDo />
     </div>
 </template>
 
