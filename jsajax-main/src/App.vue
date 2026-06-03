@@ -6,7 +6,7 @@
     let titles = ref([
         'Pictures',
         'Movies',
-        'Dark souls',
+        'Bloons TD6',
         'Git Gud',
     ]);
 
@@ -15,7 +15,7 @@ let active_tab = ref(0);
 </script>
 
 <template>
-    <Tabs :titles="titles" :active="active_tab"></Tabs>
+    <Tabs :titles="titles" :active="active_tab" @change="active_tab = $event"></Tabs>
     
     <div class="container">
         <ToDo />
