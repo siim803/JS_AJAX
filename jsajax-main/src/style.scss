@@ -1,4 +1,15 @@
-@use "bulma/sass" with 
-(
-    $primary: rgb(255, 0, 0)
-);
+@import "bulma/css/bulma.css";
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  padding: 1rem;
+}
+
+html, body, #app {
+  min-height: 100%;
+  height: 100%;
+}

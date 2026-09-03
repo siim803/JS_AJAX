@@ -9,7 +9,7 @@
   "devDependencies": {
     "@types/bun": "latest",
     "@vitejs/plugin-vue": "^6.0.3",
-    "sass-embedded": "^1.97.2",
+    "sass-embedded": "^1.103.1",
     "vite": "^7.3.1"
   },
   "peerDependencies": {
@@ -18,7 +18,7 @@
   "dependencies": {
     "boxen": "^8.0.1",
     "bulma": "^1.0.4",
-    "sass": "^1.97.2",
+    "sass": "^1.103.1",
     "vite": "^7.3.1",
     "vue": "^3.5.34",
     "vue-router": "^5.1.0"
