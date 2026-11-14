@@ -28,9 +28,11 @@ jobs:
           node-version: 22
 
       - name: Install dependencies
+        working-directory: jsajax-main
         run: npm install
 
       - name: Build
+        working-directory: jsajax-main
         run: npm run build
         env:
           VITE_BASE: /${{ github.event.repository.name }}/
@@ -41,7 +43,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: jsajax-main/dist
 
   deploy:
     environment:
