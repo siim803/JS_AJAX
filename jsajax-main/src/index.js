@@ -7,6 +7,7 @@ import Modals from './pages/Modals.vue';
 import Messages from './pages/Messages.vue'; 
 import ChuckNorris from './pages/ChuckNorris.vue';
 import RickAndMorty from './pages/RickAndMorty.vue';
+import CanvasExample from './pages/CanvasExample.vue';
 
 const routes = [
   { path: '/', component: ToDo, name: 'ToDo' },
@@ -14,6 +15,7 @@ const routes = [
   { path: '/messages', component: Messages, name: 'Messages' },
   { path: '/chuck-norris', component: ChuckNorris, name: 'ChuckNorris' },
   { path: '/rick-and-morty', component: RickAndMorty, name: 'RickAndMorty' },
+  { path: '/canvas-example', component: CanvasExample, name: 'CanvasExample' },
 ];
 
 export const router = createRouter({

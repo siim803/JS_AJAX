@@ -70,6 +70,7 @@ function search() {
     searchTimeout = setTimeout(async () => {
         await getCharacters(1);
     }, 1000);
+}
 
 </script>
 <template>
